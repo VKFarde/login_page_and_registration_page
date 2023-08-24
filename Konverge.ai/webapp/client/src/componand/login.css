@@ -1,0 +1,115 @@
+/* Login.css */
+.img-from-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: default;
+  align-items: center;
+  height: 500px;
+  margin-top: 150px;
+  width: 800px;
+  margin-left: 360px;
+}
+.img-container {
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+.img-container img {
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-container {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #08166f;
+}
+.login-form {
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #08166f;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #08166f;
+  color: #fff;
+}
+
+.login-form input {
+  background-color: #dee2fd;
+}
+
+.login-form button {
+  padding: 20px;
+  background-color: #08166f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.login-form button[type="submit"] {
+  font-size: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height: 100%;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+  opacity: 1;
+}
+.login-recovery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-recovery button {
+  font-size: 18px;
+  padding: 5px;
+  height: 40px;
+}
+
+.login-form input[type="email"] {
+  width: 90%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.login-form input[type="password"] {
+  width: 90%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .img-from-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: default;
+    align-items: center;
+    height: 500px;
+    margin-top: 150px;
+    max-width: 350px;
+    margin-left: 0px;
+  }
+  .img-container {
+    width: 20%;
+  }
+  .login-form {
+    max-width: 250px;
+    margin-left: -50px;
+  }
+}
